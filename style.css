@@ -1,0 +1,63 @@
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+label {
+    color: #09ff00;
+    font-size: 20px;
+    display: inline-block;
+    z-index: 1;
+}
+
+p {
+    color: #00ff00;
+    z-index: 1;
+}
+
+input, textarea {
+    background-color: black;
+    border: 3px #00ff00;
+    border-style: solid;
+    border-color: #00ff00;
+    color: #00ff00;
+    border-radius: 10px;
+    z-index: 1;
+
+}
+
+input:focus, textarea:focus {
+    border-color: #00ff00;
+    outline: none;
+    z-index: 1;
+}
+
+button {
+    margin-top: 15px;
+    color: #00ff00;
+    background-color: black;
+    border: 3px;
+    border-style: solid;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+button:active {
+    border-color: #00ff00;
+    color: black;
+    background-color: #00ff00;
+    outline: none;
+    z-index: 1;
+}
+
+#code_rain {
+    position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
