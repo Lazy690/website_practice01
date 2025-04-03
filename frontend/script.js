@@ -25,7 +25,7 @@ submitbutton.addEventListener("click", async function () {
 
     // Send data to backend
     try {
-        const response = await fetch("http://localhost:3000/save-message", {
+        const response = await fetch("https://website-practice01.onrender.com/save-message", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
